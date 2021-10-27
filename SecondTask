@@ -1,0 +1,22 @@
+/*You can only use libs that java provides by default, no outside libs or frameworks are allowed*/
+/*Add element int '0' after the first '0' element in array. You can't allocate additional space for another array
+  'main' method can't be changed*/
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] mas1 = {0,1,0,3,12};
+        int[] mas2 = {0};
+        int[] mas3 = {5,-5,0,10,0};
+        addZero(mas1);
+        addZero(mas2);
+        addZero(mas3);
+        System.out.println(Arrays.toString(mas1) + " -> " + "[0, 0, 1, 0, 3, 12]");
+        System.out.println(Arrays.toString(mas2) + " -> " + "[0, 0]");
+        System.out.println(Arrays.toString(mas3) + " -> " + "[5, -5, 0, 0, 10, 0]");
+    }
+    
+    private static void addZero(int[] nums) {
+    //Your code here
+ }
+}
