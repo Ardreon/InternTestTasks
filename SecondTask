@@ -1,5 +1,5 @@
 /*You can only use libs that java provides by default, no outside libs or frameworks are allowed*/
-/*Change element on int '0' after the first '0' element in array. If the element does not exist, add it.
+/*Change element on int '0' after the first '0' element in array. Consider, that array always >1 and 0 is not the last element
   You can't allocate additional space for another array
   'main' method can't be changed*/
 
@@ -7,13 +7,13 @@ public class Main {
 
     public static void main(String[] args) {
         int[] mas1 = {0,1,0,3,12};
-        int[] mas2 = {0};
+        int[] mas2 = {1,1};
         int[] mas3 = {5,-5,0,10,0};
         addZero(mas1);
         addZero(mas2);
         addZero(mas3);
         System.out.println(Arrays.toString(mas1) + " -> " + "[0,0,0,3,12]");
-        System.out.println(Arrays.toString(mas2) + " -> " + "[0, 0]");
+        System.out.println(Arrays.toString(mas2) + " -> " + "[1,1]");
         System.out.println(Arrays.toString(mas3) + " -> " + "[5,-5,0,0,0]");
     }
     
