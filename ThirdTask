@@ -1,0 +1,18 @@
+/*You can only use libs that java provides by default, no outside libs or frameworks are allowed*/
+/*Given a String, find the element that goes after the first letter 'c'. Consider that 'c' always exist.
+You can't change 'main' method*/
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.println(solve("Michael") + " -> " + "h");
+        System.out.println(solve("cerberusc") + " -> " + "e");
+        System.out.println(solve("cucumberc") + " -> " + "u");
+        System.out.println(solve("c") + " -> " + "");
+    }
+    
+    private static String solve(String input) {
+    //Your code here
+ }
+}
