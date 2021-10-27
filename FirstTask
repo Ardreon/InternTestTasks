@@ -1,0 +1,15 @@
+/*You can only use libs that java provides by default, no outside libs or frameworks are allowed*/
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.println(solve("1234") + " -> " + "4321");
+        System.out.println(solve("1534") + " -> " + "4351");
+        System.out.println(solve("16334") + " -> " + "43361");
+    }
+    
+    private static String solve(String input) {
+    //Your code here
+ }
+}
