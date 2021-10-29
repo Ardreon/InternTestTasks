@@ -9,9 +9,9 @@ public class Main {
         int[] mas1 = {0,1,0,3,12};
         int[] mas2 = {1,1};
         int[] mas3 = {5,-5,0,10,0};
-        addZero(mas1);
-        addZero(mas2);
-        addZero(mas3);
+        changeZero(mas1);
+        changeZero(mas2);
+        changeZero(mas3);
         System.out.println(Arrays.toString(mas1) + " -> " + "[0,0,0,3,12]");
         System.out.println(Arrays.toString(mas2) + " -> " + "[1,1]");
         System.out.println(Arrays.toString(mas3) + " -> " + "[5,-5,0,0,0]");
